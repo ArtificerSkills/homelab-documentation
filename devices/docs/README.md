@@ -1,4 +1,4 @@
-# 🌐 Home Lab – Network Devices
+# 🌐 Network Devices
 
 ## 📑 Table of Contents
 - [Overview](#-overview)
