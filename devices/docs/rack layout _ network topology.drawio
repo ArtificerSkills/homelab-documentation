@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.3">
+  <diagram name="Page-1" id="3lqOlToFPRD6e1X503sH">
+    <mxGraphModel dx="1418" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Internet (Virgin Media)" vertex="1">
+          <mxGeometry height="80" width="140" x="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Virgin Media Modem (Modem Mode)" vertex="1">
+          <mxGeometry height="60" width="160" x="290" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#999999;" value="Network Cabinet" vertex="1">
+          <mxGeometry height="420" width="400" x="170" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-4" parent="HdeZhcGARX9CxkdTBBVf-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="48-Port Switch (10/100, 2x Gigabit Uplink)" vertex="1">
+          <mxGeometry height="50" width="320" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-5" parent="HdeZhcGARX9CxkdTBBVf-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CAT5e Patch Panel (T568B)" vertex="1">
+          <mxGeometry height="40" width="320" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-6" parent="HdeZhcGARX9CxkdTBBVf-3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="TP-Link AC1350 WAP (Wall Mounted)" vertex="1">
+          <mxGeometry height="100" width="100" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-7" parent="HdeZhcGARX9CxkdTBBVf-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Home Devices (10/100 Connections)" vertex="1">
+          <mxGeometry height="60" width="140" x="220" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-8" edge="1" parent="HdeZhcGARX9CxkdTBBVf-3" source="HdeZhcGARX9CxkdTBBVf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;" target="HdeZhcGARX9CxkdTBBVf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-9" edge="1" parent="HdeZhcGARX9CxkdTBBVf-3" source="HdeZhcGARX9CxkdTBBVf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0050ef;strokeWidth=3;" target="HdeZhcGARX9CxkdTBBVf-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="220" as="sourcePoint" />
+            <mxPoint x="100" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-10" connectable="0" parent="HdeZhcGARX9CxkdTBBVf-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0050ef;fontStyle=1" value="Gigabit Connection" vertex="1">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-11" edge="1" parent="HdeZhcGARX9CxkdTBBVf-3" source="HdeZhcGARX9CxkdTBBVf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;" target="HdeZhcGARX9CxkdTBBVf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-12" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" value="NAS (External to Cabinet)" vertex="1">
+          <mxGeometry height="80" width="120" x="610" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-13" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;" value="Removed Device: Google Search Appliance (GSA)" vertex="1">
+          <mxGeometry height="100" width="120" x="610" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-14" edge="1" parent="1" source="HdeZhcGARX9CxkdTBBVf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="HdeZhcGARX9CxkdTBBVf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HdeZhcGARX9CxkdTBBVf-15" edge="1" parent="1" source="HdeZhcGARX9CxkdTBBVf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0050ef;strokeWidth=3;" target="HdeZhcGARX9CxkdTBBVf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
