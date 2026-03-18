@@ -1,4 +1,4 @@
-# 📦 Home Lab – Network Cabinet
+# 📦 Network Cabinet
 
 ## 📑 Table of Contents
 - [Network Cabinet Overview](#-network-cabinet-overview)
