@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.3">
+  <diagram name="Page-1" id="F7cNkyZp-ZIkQmUwI4RN">
+    <mxGraphModel dx="2026" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff3e0;strokeColor=#ef6c00;fontColor=light-dark(#333333,#cccccc);" value="Streaming PC" vertex="1">
+          <mxGeometry height="104" width="225" x="518" y="737" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e8f5e9;strokeColor=#2e7d32;fontColor=light-dark(#333333,#cccccc);" value="Discord Ecosystem" vertex="1">
+          <mxGeometry height="290" width="481" x="832" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1f5fe;strokeColor=#01579b;fontColor=light-dark(#333333,#cccccc);" value="NAS - TrueNAS Core" vertex="1">
+          <mxGeometry height="443" width="392" x="420" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="NAS Server" vertex="1">
+          <mxGeometry height="54" width="138" x="475" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-5" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#90caf9;strokeColor=#01579b;fontColor=light-dark(#333333,#cccccc);" value="Non-redundant ZFS Pool" vertex="1">
+          <mxGeometry height="84" width="187" x="517" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#bbdefb;strokeColor=#01579b;fontColor=light-dark(#333333,#cccccc);" value="Plex Media Server Jail" vertex="1">
+          <mxGeometry height="54" width="218" x="522" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#c8e6c9;strokeColor=#2e7d32;fontColor=light-dark(#333333,#cccccc);" value="Discord Bot" vertex="1">
+          <mxGeometry height="54" width="141" x="1026" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-8" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#a5d6a7;strokeColor=#2e7d32;fontColor=light-dark(#333333,#cccccc);" value="Remote Users" vertex="1">
+          <mxGeometry height="112" width="112" x="881" y="373" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-9" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#a5d6a7;strokeColor=#2e7d32;fontColor=light-dark(#333333,#cccccc);" value="Local Users" vertex="1">
+          <mxGeometry height="96" width="96" x="1160" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe0b2;strokeColor=#ef6c00;fontColor=light-dark(#333333,#cccccc);" value="Streaming PC" vertex="1">
+          <mxGeometry height="54" width="155" x="553" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Discord Voice Channel" vertex="1">
+          <mxGeometry height="54" width="218" x="522" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-12" edge="1" parent="1" source="68T0CVQ72AFz4cgDpcXE-4" style="curved=1;startArrow=none;endArrow=none;exitX=0.7;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="68T0CVQ72AFz4cgDpcXE-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-13" edge="1" parent="1" source="68T0CVQ72AFz4cgDpcXE-4" style="curved=1;startArrow=none;endArrow=none;exitX=0.31;exitY=1;entryX=0.21;entryY=0.01;rounded=0;" target="68T0CVQ72AFz4cgDpcXE-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="482" y="336" />
+              <mxPoint x="482" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-14" edge="1" parent="1" source="68T0CVQ72AFz4cgDpcXE-5" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.46;entryY=0.01;rounded=0;" target="68T0CVQ72AFz4cgDpcXE-6" value="Data Access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-15" edge="1" parent="1" source="68T0CVQ72AFz4cgDpcXE-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" target="68T0CVQ72AFz4cgDpcXE-10" value="Media stream">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-16" edge="1" parent="1" source="68T0CVQ72AFz4cgDpcXE-7" style="curved=1;startArrow=block;endArrow=block;exitX=0.02;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="68T0CVQ72AFz4cgDpcXE-8" value="Commands &amp; Responses">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="937" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-17" edge="1" parent="1" source="68T0CVQ72AFz4cgDpcXE-7" style="curved=1;startArrow=block;endArrow=block;exitX=0.83;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="68T0CVQ72AFz4cgDpcXE-9" value="Commands &amp; Responses">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1208" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-18" edge="1" parent="1" source="68T0CVQ72AFz4cgDpcXE-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.44;exitY=1;entryX=0.58;entryY=0.01;rounded=0;" target="68T0CVQ72AFz4cgDpcXE-6" value="API command">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1077" y="336" />
+              <mxPoint x="1077" y="510" />
+              <mxPoint x="672" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-19" edge="1" parent="1" source="68T0CVQ72AFz4cgDpcXE-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" target="68T0CVQ72AFz4cgDpcXE-11" value="Media output">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68T0CVQ72AFz4cgDpcXE-20" edge="1" parent="1" source="68T0CVQ72AFz4cgDpcXE-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.71;entryY=0.01;rounded=0;" target="68T0CVQ72AFz4cgDpcXE-6" value="Direct access">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1208" y="510" />
+              <mxPoint x="739" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
