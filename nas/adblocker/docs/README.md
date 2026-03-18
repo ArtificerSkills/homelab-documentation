@@ -1,4 +1,4 @@
-# 🚫 Home Lab – Ad Blocker
+# 🚫 Ad Blocker
 
 ## 📑 Table of Contents
 - [Overview](#-overview)
