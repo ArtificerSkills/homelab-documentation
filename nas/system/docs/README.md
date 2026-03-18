@@ -1,4 +1,4 @@
-# 🖥️ Home Lab – NAS System
+# 🖥️ NAS System
 
 ## 📑 Table of Contents
 - [Overview](#-overview)
