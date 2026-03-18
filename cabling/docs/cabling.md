@@ -1,4 +1,4 @@
-# 🌐 Home Lab – Network Cabling Overview
+# 🌐 Network Cabling Overview
 
 ## 📑 Table of Contents
 - [Cabling Choice](#-cabling-choice)
