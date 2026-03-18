@@ -1,4 +1,4 @@
-# 🎬 Home Lab – Plex Media Server
+# 🎬 Plex Media Server
 
 ## 📑 Table of Contents
 - [Overview](#-overview)
