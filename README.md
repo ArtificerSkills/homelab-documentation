@@ -1,4 +1,4 @@
-# 🏠 Home Lab – First Documentation
+# 🏠 First Home Lab Documentation
 
 ## 📑 Table of Contents
 - [Overview](#-overview)
