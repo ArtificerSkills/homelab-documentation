@@ -7,6 +7,7 @@
 - [Media Library](#-media-library)
 - [Access & Usage](#-access--usage)
 - [Discord Integration](#-discord-integration)
+- [Challenges & Troubleshooting Experience](#-challenges--troubleshooting-experience)
 - [Monetisation (Cost Recovery)](#-monetisation-cost-recovery)
 - [Limitations & Lessons Learned](#-limitations--lessons-learned)
 - [Future Improvements](#-future-improvements)
@@ -47,7 +48,7 @@ It was used for:
 
 ### Important Note
 - ❌ **No redundancy configured**
-- ❌ No RAID setup (e.g. RAIDZ, RAID1, etc.)
+- ❌ No RAID setup (e.g., RAIDZ, RAID1)
 
 ### Result
 - Drives were effectively combined into a **single large storage pool**
@@ -86,7 +87,7 @@ It was used for:
 One of the most unique features of this setup was **Discord-based media control**, powered by an external bot.
 
 ### GitHub Repository
-- https://github.com/danxfisher/Plex-Discord-Bot
+- [Plex Discord Bot by danxfisher](https://github.com/danxfisher/Plex-Discord-Bot)
 
 ---
 
@@ -116,9 +117,73 @@ One of the most unique features of this setup was **Discord-based media control*
 ### Notes
 - Bot configuration and customisation will be documented in `/plex/scripts/` in the future
 - Additional setup steps (API keys, authentication, etc.) to be added later
-  
-### GitHub Repository
-- [Plex Discord Bot by danxfisher](https://github.com/danxfisher/Plex-Discord-Bot)
+
+---
+
+## 🧠 Challenges & Troubleshooting Experience
+
+### 📚 Learning Curve
+This implementation involved a steep learning curve, particularly around:
+
+- Importing and working with external GitHub repositories
+- Deploying third-party tools within TrueNAS Core
+- Understanding how services interact across systems (NAS, Discord, streaming PC)
+
+At the time, this was a completely new area, and troubleshooting required extensive research and experimentation.
+
+---
+
+### 🧩 Repository Issues
+The Discord bot implementation was based on an older repository:
+
+- Estimated age: ~9 years
+- Some functionality was **outdated or partially broken**
+
+Changes to:
+- Plex APIs  
+- Dependency versions  
+- System architecture  
+
+…meant that parts of the code required troubleshooting and workarounds to function correctly.
+
+---
+
+### ⚙️ Platform Constraints
+Using **TrueNAS Core** introduced additional challenges:
+
+- Jail-based system is less flexible than modern container platforms
+- Harder to manage dependencies compared to Docker-based environments
+- Increased complexity when integrating external tools
+
+---
+
+### 🤖 Troubleshooting Approach
+Troubleshooting relied heavily on:
+
+- Documentation
+- Trial and error
+- AI-assisted debugging
+
+Despite these challenges, the system was successfully made to function for its intended use.
+
+---
+
+### 💾 Configuration Status
+- All configurations currently exist on the original NAS system
+- The system is in storage and not currently accessible
+
+---
+
+### 🔄 Future Plan
+- Extract configs and scripts from the NAS
+- Store them in this repository under:
+  - `/plex/configs/`
+  - `/plex/scripts/`
+
+This will allow:
+- Easier redeployment
+- Version control
+- Long-term maintainability
 
 ---
 
