@@ -83,27 +83,42 @@ It was used for:
 
 ## 🤖 Discord Integration
 
-One of the most unique features of this setup was **Discord-based media control**.
+One of the most unique features of this setup was **Discord-based media control**, powered by an external bot.
+
+### GitHub Repository
+- https://github.com/danxfisher/Plex-Discord-Bot
+
+---
 
 ### How It Worked
 1. User joins a **Discord voice channel**
 2. Uses a **slash command** in a text channel
 3. Bot retrieves:
-   - Plex library content
+   - Plex media library
 4. User selects a movie
-5. Movie is played via a **dedicated streaming PC**
+5. Playback is triggered on a **dedicated streaming PC**
+
+---
 
 ### Components Involved
 - Plex Media Server (NAS)
-- Custom Discord bot (external repo)
+- Discord Bot (external GitHub project)
 - Separate **Streaming PC**
 
-### Playback Method
-- Streaming PC used:
-  - Plex media player (HTPC-style client)
-- Output streamed directly into Discord
+---
 
-> 🔧 GitHub repository for the bot: *(to be added)*
+### Playback Method
+- Streaming PC used a Plex client (HTPC-style interface)
+- Media was then streamed into Discord for shared viewing
+
+---
+
+### Notes
+- Bot configuration and customisation will be documented in `/plex/scripts/` in the future
+- Additional setup steps (API keys, authentication, etc.) to be added later
+  
+### GitHub Repository
+- [Plex Discord Bot by danxfisher](https://github.com/danxfisher/Plex-Discord-Bot)
 
 ---
 
